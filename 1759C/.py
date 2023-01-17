@@ -2,7 +2,15 @@ test = int(input())
 
 
 def solve(l, r, x, a, b):
-    pass
+    if abs(a-b) > x:
+        return 0
+    c = (b-a)/abs(b-a)
+    if b + c*x:
+        return 1
+    if True:
+        return 2
+    if True:
+        return 3
 
 
 res = []
